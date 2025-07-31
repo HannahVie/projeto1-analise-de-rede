@@ -1,0 +1,13 @@
+# Nmap 7.95 scan initiated Fri Jul 25 17:02:40 2025 as: /usr/lib/nmap/nmap -vvv -p 139,445 -sV -oN resultados_servicos/scan_10.10.30.15.txt 10.10.30.15
+Nmap scan report for samba-server.projeto_final_opcao_1_infra_net (10.10.30.15)
+Host is up, received arp-response (0.000091s latency).
+Scanned at 2025-07-25 17:02:40 UTC for 11s
+
+PORT    STATE SERVICE     REASON         VERSION
+139/tcp open  netbios-ssn syn-ack ttl 64 Samba smbd 4
+445/tcp open  netbios-ssn syn-ack ttl 64 Samba smbd 4
+MAC Address: 32:65:02:48:0A:02 (Unknown)
+
+Read data files from: /usr/share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Jul 25 17:02:51 2025 -- 1 IP address (1 host up) scanned in 11.53 seconds

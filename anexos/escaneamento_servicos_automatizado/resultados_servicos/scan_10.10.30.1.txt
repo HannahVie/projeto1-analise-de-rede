@@ -1,0 +1,13 @@
+# Nmap 7.95 scan initiated Fri Jul 25 17:02:00 2025 as: /usr/lib/nmap/nmap -vvv -p 111,36623 -sV -oN resultados_servicos/scan_10.10.30.1.txt 10.10.30.1
+Nmap scan report for 10.10.30.1
+Host is up, received arp-response (0.00011s latency).
+Scanned at 2025-07-25 17:02:01 UTC for 6s
+
+PORT      STATE SERVICE REASON         VERSION
+111/tcp   open  rpcbind syn-ack ttl 64 2-4 (RPC #100000)
+36623/tcp open  status  syn-ack ttl 64 1 (RPC #100024)
+MAC Address: 3E:59:FE:23:E9:10 (Unknown)
+
+Read data files from: /usr/share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Jul 25 17:02:07 2025 -- 1 IP address (1 host up) scanned in 6.96 seconds

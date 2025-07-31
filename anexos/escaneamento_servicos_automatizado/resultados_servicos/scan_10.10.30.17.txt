@@ -1,0 +1,13 @@
+# Nmap 7.95 scan initiated Fri Jul 25 17:02:56 2025 as: /usr/lib/nmap/nmap -vvv -p 389,636 -sV -oN resultados_servicos/scan_10.10.30.17.txt 10.10.30.17
+Nmap scan report for openldap.projeto_final_opcao_1_infra_net (10.10.30.17)
+Host is up, received arp-response (0.000060s latency).
+Scanned at 2025-07-25 17:02:56 UTC for 11s
+
+PORT    STATE SERVICE  REASON         VERSION
+389/tcp open  ldap     syn-ack ttl 64 OpenLDAP 2.2.X - 2.3.X
+636/tcp open  ldapssl? syn-ack ttl 64
+MAC Address: 8A:C5:37:F2:56:07 (Unknown)
+
+Read data files from: /usr/share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Jul 25 17:03:07 2025 -- 1 IP address (1 host up) scanned in 11.60 seconds

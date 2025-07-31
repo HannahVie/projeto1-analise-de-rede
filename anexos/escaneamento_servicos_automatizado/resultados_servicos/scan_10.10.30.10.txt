@@ -1,0 +1,12 @@
+# Nmap 7.95 scan initiated Fri Jul 25 17:02:12 2025 as: /usr/lib/nmap/nmap -vvv -p 21 -sV -oN resultados_servicos/scan_10.10.30.10.txt 10.10.30.10
+Nmap scan report for ftp-server.projeto_final_opcao_1_infra_net (10.10.30.10)
+Host is up, received arp-response (0.00011s latency).
+Scanned at 2025-07-25 17:02:12 UTC for 0s
+
+PORT   STATE SERVICE REASON         VERSION
+21/tcp open  ftp     syn-ack ttl 64 Pure-FTPd
+MAC Address: 42:59:64:DD:FA:50 (Unknown)
+
+Read data files from: /usr/share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Jul 25 17:02:12 2025 -- 1 IP address (1 host up) scanned in 0.63 seconds

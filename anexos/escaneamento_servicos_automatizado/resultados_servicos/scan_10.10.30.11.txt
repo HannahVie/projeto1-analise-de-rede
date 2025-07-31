@@ -1,0 +1,13 @@
+# Nmap 7.95 scan initiated Fri Jul 25 17:02:18 2025 as: /usr/lib/nmap/nmap -vvv -p 3306,33060 -sV -oN resultados_servicos/scan_10.10.30.11.txt 10.10.30.11
+Nmap scan report for mysql-server.projeto_final_opcao_1_infra_net (10.10.30.11)
+Host is up, received arp-response (0.000095s latency).
+Scanned at 2025-07-25 17:02:18 UTC for 0s
+
+PORT      STATE SERVICE REASON         VERSION
+3306/tcp  open  mysql   syn-ack ttl 64 MySQL 8.0.43
+33060/tcp open  mysqlx  syn-ack ttl 64 MySQL X protocol listener
+MAC Address: 02:60:EC:A0:13:36 (Unknown)
+
+Read data files from: /usr/share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Jul 25 17:02:18 2025 -- 1 IP address (1 host up) scanned in 0.64 seconds

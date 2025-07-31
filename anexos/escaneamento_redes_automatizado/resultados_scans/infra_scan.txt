@@ -1,0 +1,7 @@
+ 10.10.50.1      c6:39:d0:23:cf:fe      1      42  Unknown vendor
+ 10.10.50.2      5e:44:69:e2:58:ed      1      42  Unknown vendor
+ 10.10.50.3      16:98:d0:8e:8a:ce      1      42  Unknown vendor
+ 10.10.50.4      5e:ac:fe:c4:56:46      1      42  Unknown vendor
+ 10.10.50.5      3a:c3:7f:1b:4a:cc      1      42  Unknown vendor
+
+-- Active scan completed, 5 Hosts found.
